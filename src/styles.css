@@ -1,0 +1,30 @@
+.ListItem {
+  padding: 10px;
+  background-color: rgba(230, 230, 230, 1);
+  margin: 10px 0px;
+  border: 2px dotted rgba(0, 0, 0, 0);
+  cursor: move;
+  font-size: 18px;
+}
+
+.ListItem.isOver {
+  border: 2px dotted rgba(0, 0, 0, 1);
+  background-color: rgba(130, 30, 130, 0.2);
+}
+
+#json {
+  margin-top: 50px;
+  font-family: monospace;
+  padding: 15px;
+  width: 80%;
+  min-height: 200px;
+  font-size: 18px;
+}
+
+#json.error {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+#message_box {
+  font-size: 18px;
+}

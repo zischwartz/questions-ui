@@ -1,0 +1,1 @@
+.ListItem{padding:10px;background-color:#e6e6e6;margin:10px 0;border:2px dotted transparent;cursor:move;font-size:18px}.ListItem.isOver{border:2px dotted #000;background-color:rgba(130,30,130,.2)}#json{margin-top:50px;font-family:monospace;padding:15px;width:80%;min-height:200px;font-size:18px}#json.error{background-color:rgba(255,0,0,.2)}#message_box{font-size:18px}
